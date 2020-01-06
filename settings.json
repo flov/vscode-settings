@@ -1,0 +1,50 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "C_Cpp.updateChannel": "Insiders",
+    "arduino.additionalUrls": [
+        "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+    ],
+    "editor.tabSize": 2,
+    "vim.leader": ",",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.searchHighlightColor": "rgba(227,122,17,0.8)",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen"
+                }
+            ]
+        },
+    ],
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "yaml.schemas": {
+        "file:///Users/florianvallen/.vscode/extensions/atlassian.atlascode-2.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "eslint.alwaysShowStatus": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": false,
+}
