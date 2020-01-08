@@ -17,7 +17,7 @@
     "command": "workbench.action.navigateDown"
   },
   {
-    "key": "alt+j",
+    "key": "cmd+j",
     "command": "editor.action.moveLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -27,7 +27,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "alt+k",
+    "key": "cmd+k",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
   },

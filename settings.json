@@ -47,4 +47,19 @@
         "editor.formatOnSave": true
     },
     "editor.formatOnSave": false,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "7a65fb01-5722-43be-96b3-2ca8769ab1ba",
+            "enabled": true,
+            "name": "My geton Issues",
+            "query": "assignee = currentUser() ORDER BY lastViewed DESC ",
+            "siteId": "c019622a-fc3d-4c6c-9f0e-3137e92e1340",
+            "monitor": true
+        }
+    ],
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "c019622a-fc3d-4c6c-9f0e-3137e92e1340",
+        "projectKey": "GOA"
+    },
+    "workbench.colorTheme": "Cobalt2",
 }
