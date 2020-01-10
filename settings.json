@@ -3,6 +3,8 @@
     "workbench.sideBar.location": "right",
     "editor.tabSize": 2,
     "vim.leader": ",",
+    "vim.history": 100,
+    "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -15,7 +17,7 @@
         }
     ],
     "vim.useSystemClipboard": true,
-    "vim.searchHighlightColor": "rgba(227,122,17,0.8)",
+    // "vim.searchHighlightColor": "red",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -28,6 +30,10 @@
                     "command": "workbench.action.quickOpen"
                 }
             ]
+        },
+        {
+            "before": ["d"],
+            "after": [ "\"", "_", "d" ]
         },
     ],
     "prettier.jsxSingleQuote": true,
@@ -54,5 +60,8 @@
         "siteId": "c019622a-fc3d-4c6c-9f0e-3137e92e1340",
         "projectKey": "GOA"
     },
-    "workbench.colorTheme": "Cobalt2",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "yaml.schemas": {
+        "file:///Users/florianvallen/.vscode/extensions/atlassian.atlascode-2.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
 }
