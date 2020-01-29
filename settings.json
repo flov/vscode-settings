@@ -12,7 +12,6 @@
     }
   ],
   "vim.useSystemClipboard": true,
-  "vim.searchHighlightColor": "green",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<leader>", "p"],
@@ -57,5 +56,5 @@
     "file:///Users/florianvallen/.vscode/extensions/atlassian.atlascode-2.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "workbench.iconTheme": "vs-minimal",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 0
 }
